@@ -2,15 +2,15 @@ import { Nunito } from "next/font/google";
 
 const nunito = Nunito({ subsets: ["latin"], weight: ["400", "500", "700", "800"] });
 
-export default function CourseCards() {
+export default function KartuWarna() {
   return (
-    <div className={`${nunito.className} bg-white min-h-screen flex items-center justify-center p-10`}>
+    <div className={`bg-white min-h-screen flex items-center justify-center p-10`}>
       <div className="grid grid-cols-2 gap-[30px] max-w-[920px] w-full">
 
         {/* Card 1 - Adobe Photoshop */}
         <div className="bg-blue-100 rounded-2xl p-6 flex flex-col justify-between h-[260px] w-full">
           <div className="flex items-center gap-2 text-blue-900 text-sm font-bold">
-            <img src="/palette.svg" alt="Design" className="w-4 h-4" />
+            <img src={"/palette.svg"} alt="Design" className="w-4 h-4" />
             <p>Design</p>
           </div>
           <div>
@@ -18,7 +18,7 @@ export default function CourseCards() {
             <p className="text-blue-900 text-sm mt-1 font-bold">in 3 days</p>
             <div className="absolute right-[-300px] bottom-0 flex items-center -space-x-2 relative">
           <img src="https://i.pravatar.cc/40?img=1" alt="User" className="w-7 h-7 rounded-full border-2 border-white" />
-          <img src="https://i.pravatar.cc/40?img=2" alt="User" className="w-7 h-7 rounded-full border-2 border-white" />
+          <img src="https://i.pravatar.cc/40?img=2 " alt="User" className="w-7 h-7 rounded-full border-2 border-white" />
           <img src="https://i.pravatar.cc/40?img=3" alt="User" className="w-7 h-7 rounded-full border-2 border-white" />
           <div className="w-7 h-7 rounded-full border-2 border-white bg-blue-200 flex items-center justify-center text-[9px] font-bold text-blue-900">
             3+
